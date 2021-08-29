@@ -294,7 +294,13 @@ Using github, a release of the entire pipeline is created :
 Reference: [Github releases](https://docs.github.com/en/github/administering-a-repository/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release)
 
 ---
-# Conclusion 
+# Conclusion & Opportunities for Improvement
 Using a wide set of different tools, we've successfully deployed a modular, highly configurable to end to end pipeline that can be reproduced. All configurations, experimentations and artifacts are tracked in Weights & Biases.
+
+The EDA and modelling part of the project were not prioritized. In a future iteration, the project could be improved with the following:
+* Deep dive EDA, feature engineering and modelling to improve the predictions and MAE
+* Creation of a separate step to train and evaluation other regressor models such as xgboost
+* Use of object oriented programming for each component
+* Deploying the model into a cloud environment using docker
 
 
