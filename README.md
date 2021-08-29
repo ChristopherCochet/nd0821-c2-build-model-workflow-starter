@@ -199,6 +199,8 @@ After the cleaning, a set of test validate the resulting dataset characteristics
 > mlflow run . -P steps=data_check
 ```
 
+<img src="images/pytest-pass.JPG" width="1200">
+
 # 4.Data Splitting
 * Component ``train_val_test_split``
 
@@ -218,8 +220,6 @@ Splits the date is an training, validation and testing set with the following de
 ```bash
 > mlflow run . -P steps=data_split
 ```
-
-<img src="images/pytest-pass.JPG" width="1200">
 
 # 5.Train Random Forest
 * Component ``train_random_forest``
