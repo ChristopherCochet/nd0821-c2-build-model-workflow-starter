@@ -7,16 +7,16 @@
 Source: [Udacity - Machine Learning DevOps Engineer Nano-degree](https://www.udacity.com/course/machine-learning-dev-ops-engineer-nanodegree--nd0821)
 
 The different component of the pipeline are: 
-  * [Exploratory Data Analysis (EDA)](#1.exploratory-data-analysis-eda)
-  * [Data cleaning](#2.data-cleaning)
-  * [Data testing](#3.data-testing)
-  * [Data splitting](#4.data-splitting)
-  * [Train Random Forest](#5.train-random-forest)
-  * [Optimize hyperparameters](#6.optimize-hyperparameters)
-  * [Select the best model](#7.select-the-best-model)
-  * [Test](#8.test)
-  * [Visualize the pipeline](#9.visualize-the-pipeline)
-  * [Release the pipeline](#10.release-the-pipeline)
+  * [Exploratory Data Analysis (EDA)](#1exploratory-data-analysis-eda)
+  * [Data cleaning](#2data-cleaning)
+  * [Data testing](#3data-testing)
+  * [Data splitting](#4data-splitting)
+  * [Train Random Forest](#5train-random-forest)
+  * [Optimize hyperparameters](#6optimize-hyperparameters)
+  * [Select the best model](#7select-the-best-model)
+  * [Test](#8test)
+  * [Visualize the pipeline](#9visualize-the-pipeline)
+  * [Release the pipeline](#10release-the-pipeline)
 
 ---
 ## ML Pipeline Concepts - Artefacts and Components
