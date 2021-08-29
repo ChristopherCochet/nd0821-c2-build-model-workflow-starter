@@ -108,14 +108,14 @@ if __name__ == "__main__":
 
     parser.add_argument(
         "--min_price", 
-        type=int,
+        type=float,
         help="the minimum price to consider and filter the price data for (e.g 50)",
         required=True
     )
 
     parser.add_argument(
         "--max_price", 
-        type=int,
+        type=float,
         help="the maximum price to consider and filter the price data for (e.g 150)",
         required=True
     )
