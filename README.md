@@ -219,10 +219,12 @@ Splits the date is an training, validation and testing set with the following de
 > mlflow run . -P steps=data_split
 ```
 
+<img src="images/pytest-pass.JPG" width="1200">
+
 # 5.Train Random Forest
 * Component ``train_random_forest``
 
-Train the Random Forest model with the with the following default hyper parameters:
+Train the Random Forest model with the with the following best tuned hyper parameters:
 ```
     max_tfidf_features: 30 # old 5
     n_estimators: 100
@@ -262,12 +264,21 @@ From W&B interface and we select the best performing model considering the Mean 
 
 # 8.Test & Evaluate Model
 * Component ``test_regression_model``
-Tests the production model against the test set.
+Tests the production model against the test set. 
+With our tuned hyper parameter with no feature engineering we obtain the following on the test set:
+    * MAE ~ 31.1
+    * R^2 ~ 0.59
+
+> Mean Absolute Error (MAE): MAE measures the average magnitude of the errors in a set of predictions, without considering their direction. It’s the average over the test sample of the absolute differences between prediction and actual observation where all individual differences have equal weight.
+
+> R-squared is a goodness-of-fit measure for linear regression models. This statistic indicates the percentage of the variance in the dependent variable that the independent variables explain collectively. R-squared measures the strength of the relationship between your model and the dependent variable on a convenient 0 – 100% scale.
 
 **To run this pipeline component:**
 ```bash
 > mlflow run . -P steps=test_regression_model
 ```
+
+<img src="images/eval-results-test-data.JPG" width="400">
 
 # 9.Visualize the pipeline
 
