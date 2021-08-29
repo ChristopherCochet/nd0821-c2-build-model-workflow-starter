@@ -23,11 +23,11 @@ entry_points:
 
       min_price:
         description: minimum price used to filter the input artifact
-        type: int
+        type: float
 
       max_price:
         description: maximum price used to filter the input artifact
-        type: int
+        type: float
 
 
 
