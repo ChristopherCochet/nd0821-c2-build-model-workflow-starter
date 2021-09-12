@@ -42,7 +42,7 @@ Source: [Udacity - Machine Learning DevOps Engineer Nano-degree](https://www.uda
  * [Weights & Biases NYC rental properties project](https://wandb.ai/cmc265/nyc_airbnb?workspace=user-cmc265)
  * [Github repository](https://github.com/ChristopherCochet/nd0821-c2-build-model-workflow-starter)
 
-## Organisation Overview of the Pipeline Component and Code
+## Overview of the Pipeline Component and Code Organisation 
 
 ```
     ├── components
